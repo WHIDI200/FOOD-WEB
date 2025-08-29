@@ -68,6 +68,7 @@
           border-radius: 50px;
           border: none;
           outline: none;
+          color: #fffcfa;
        
      }
       .btn i{
@@ -108,3 +109,70 @@ color: #6b7280;
     padding: 20px 20px;
    }
   
+   /* card -box */
+ .card-box{
+   margin-top: 200px;
+ }
+  #text{
+     text-align: center;
+     line-height: 1.7;
+     padding: 10px 10px;
+     font-size: 3rem;
+  }
+  .card-box p{ 
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .flex-1{
+     margin-top: 50px;
+     width: 100%;
+  }
+   .flex-1 img{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+   }
+   .card{
+        filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.3));
+ width: 100%;
+ margin: 10px ;
+   padding: 20px;
+   }
+   .card h2{
+     font-size: 1.5rem;
+  padding: 20px;
+     text-align: center;
+   }
+   .card p{
+     text-align: center;
+      padding: 10px;
+      font-size: 0.80rem;
+   }
+    .special__ratings{
+     display:  flex;
+    padding: 10px 0;
+     justify-content: center;
+       align-items: center;
+    }
+     .special__ratings i{
+       margin: 5px ;
+       color: #fc7f09;
+     }
+      
+     .special-food p{
+        font-size: 1.6rem;
+        font-weight: 900;
+     }
+     .bt-card{
+       justify-content: center;
+       align-items: center;
+    display:  flex;
+    margin-top: 10px;
+     }
+@media screen and (max-width:540px) {
+   .flex-1{
+     flex-direction: column-reverse;
+   }
+}
